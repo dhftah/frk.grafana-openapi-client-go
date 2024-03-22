@@ -14,7 +14,7 @@ import (
 // FrameColumn A single column of data in the data frame
 //
 // swagger:model FrameColumn
-type FrameColumn []int64
+type FrameColumn []float32
 
 // Validate validates this frame column
 func (m FrameColumn) Validate(formats strfmt.Registry) error {
